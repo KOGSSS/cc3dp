@@ -7,6 +7,16 @@
     <link rel="stylesheet" href="styles.css">  <!-- Ensure your CSS file path is correct -->
 </head>
 <body>
+    <div class="construction-banner">
+        🚧 Please be patient while we build our site. Exciting updates coming soon!
+        <button onclick="dismissBanner()" style="margin-left: 20px; cursor: pointer;">X</button>
+    </div>
+    
+    <script>
+    function dismissBanner() {
+        document.querySelector('.construction-banner').style.display = 'none';
+    }
+    </script>
     <header>
         <div class="logo-and-name">
             <img src="images/logo_transparent_25resize.png" alt="Logo" class="logo">
@@ -18,6 +28,7 @@
                 <li><a href="index.html">Home</a></li>
                 <li><a href="index.html#about">About</a></li>
                 <li><a href="index.html#services">Services</a></li>
+                <li><a href="https://www.etsy.com/shop/CentralCoast3DPrints?ref=profile_header">Store</a></a></li>
                 <li><a href="blog.html">Blog</a></li>
                 <li><a href="index.html#contact">Contact</a></li>
             </ul>

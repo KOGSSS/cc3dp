@@ -7,6 +7,17 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <div class="construction-banner">
+        🚧 Please be patient while we build our site. Exciting updates coming soon!
+        <button onclick="dismissBanner()" style="margin-left: 20px; cursor: pointer;">X</button>
+    </div>
+    
+    <script>
+    function dismissBanner() {
+        document.querySelector('.construction-banner').style.display = 'none';
+    }
+    </script>
+      
     <header>       
         <div class="logo-and-name">
             <img src="images/logo_transparent_25resize.png" alt="Logo" class="logo">
@@ -17,6 +28,7 @@
                 <li><a href="#">Home</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#services">Services</a></li>
+                <li><a href="https://www.etsy.com/shop/CentralCoast3DPrints?ref=profile_header">Store</a></a></li>
                 <li><a href="blog.html">Blog</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
@@ -32,7 +44,7 @@
 
             <p>Located in the heart of California's Central Coast, near the serene shores of Monterey and the vibrant community of Santa Cruz, California, <strong>Central Coast 3D Printing</strong> is pioneering a path towards a more sustainable future. Our mission is deeply rooted in the principle of <strong>environmental responsibility</strong>—specifically focusing on reducing plastic pollution and enhancing ecosystem recovery on traditional indigenous Ohlone Territory.</p>
             <p>At <strong>Central Coast 3D Printing</strong>, we are dedicated to achieving a <strong>net-negative plastic usage</strong>. We aim to collaborate with the high-tech and emerging technology sectors, the recycling industry, and local reforestation and rewilding initiatives. Our commitment extends to using <strong>100% recycled materials</strong> for all our packaging and implementing internal programs that encourage customers to return used products. We want to ensure that every piece of waste from our production cycle is either recycled or biodegraded properly, aiming to responsibly manage our products throughout their entire lifespan.</p>
-            <img src="images/Monterey Cypress.jpg" class="content-image-left">
+            <img src="Images\Monterey%20Cypress.jpg" class="content-image-left">
 
             <p>Our vision is ambitious: transforming our community’s relationship with plastic waste both literally and figuratively as we work to recycle discarded landfill waste into usable 3D printing filaments to craft new usable products that serve both community and environmental responsibility. We are not just a business; we are a movement towards a world where <strong>technology heals the planet</strong>.</p>
 
